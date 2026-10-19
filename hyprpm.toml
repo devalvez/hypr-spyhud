@@ -1,8 +1,11 @@
 [repository]
 name = "spyhud"
+authors = ["wesley"]
 
 [spyhud]
 description = "SPYHUNTER-style HUD window decorations"
 authors = ["wesley"]
-output = "build/libspyhud.so"
-build = ["cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE=Release -B build", "cmake --build build -j"]
+output = "spyhud.so"
+build = [
+    "make all",
+]
