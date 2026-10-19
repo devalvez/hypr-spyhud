@@ -248,3 +248,4 @@ Estas partes do visual são do próprio Hyprland:
 | `Makefile`, `CMakeLists.txt` | build |
 | `hyprpm.toml` | manifesto para o hyprpm |
 | `spyhud.conf` | exemplo de configuração em hyprlang |
+
